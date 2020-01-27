@@ -9,6 +9,9 @@ public class User implements Parcelable {
     String name;
     String status;
 
+    public User() {
+    }
+
     public String get_id() {
         return _id;
     }
